@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Solway:wght@300&family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Source+Code+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.sidebar {
+    background-color: rgb(220, 219, 219);
+    width: 262px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+.sidebar nav {
+    padding: 6px;
+    /* margin: 6px; */
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 25px;
+    font-size: 21px;
+    font-size: large;
+    font-weight: bold;
+
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: aquamarine; */
+    width: 85vw;
+    font-family: 'Solway', serif;
+    margin: auto auto;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontent {
+    /* background-color: blueviolet; */
+    height: 56vh;
+    width: 80vw;
+    margin: 147px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.pic img {
+    height: 56vh;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hello {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.name {
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    /* background: url(human.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mit 12.5s linear infinite; */
+}
+
+.moreabout {
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 23px;
+}
+
+@keyframes mit {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+.about {
+    font-size: 35px;
+    font-weight: bold;
+
+    font-family: 'Source Code Pro', monospace;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0 3px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+/* 35:00 */
